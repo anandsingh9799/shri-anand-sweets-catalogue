@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SHRI ANAND SWEETS & FOODS | Digital Catalogue</title>
+
+  <meta
+    name="description"
+    content="SHRI ANAND SWEETS & FOODS — Premium sweets, wholesale supply and distribution."
+  >
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">SA</span>
+
+      <div>
+        <h1>SHRI ANAND</h1>
+        <p>SWEETS & FOODS</p>
+      </div>
+    </div>
+
+    <a
+      class="header-whatsapp"
+      href="https://wa.me/917389161808"
+      target="_blank"
+      rel="noopener"
+    >
+      WhatsApp
+    </a>
+  </header>
+
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <p class="eyebrow">PREMIUM • WHOLESALE • DISTRIBUTION</p>
+
+      <h2>
+        Premium Sweets<br>
+        Made for Business.
+      </h2>
+
+      <p class="hero-text">
+        Explore our wholesale collection of premium sweets,
+        kaju specialties, peda and patisa products.
+      </p>
+
+      <a href="#products" class="primary-button">
+        Explore Catalogue
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- CATEGORIES -->
+  <section class="categories-section">
+
+    <div class="section-heading">
+      <span>OUR COLLECTION</span>
+      <h2>Browse by Category</h2>
+    </div>
+
+    <div id="categories" class="category-list"></div>
+
+  </section>
+
+
+  <!-- PRODUCTS -->
+  <main id="products" class="products-section">
+
+    <div class="section-heading">
+      <span>PRODUCT CATALOGUE</span>
+      <h2>Our Products</h2>
+      <p>
+        Wholesale products from SHRI ANAND SWEETS & FOODS.
+      </p>
+    </div>
+
+    <div id="productGrid" class="product-grid"></div>
+
+  </main>
+
+
+  <!-- WHOLESALE CTA -->
+  <section class="wholesale-section">
+
+    <div>
+      <span class="eyebrow">WHOLESALE ENQUIRY</span>
+
+      <h2>
+        Looking for wholesale supply?
+      </h2>
+
+      <p>
+        Contact us for product availability,
+        pricing and bulk requirements.
+      </p>
+    </div>
+
+    <a
+      href="https://wa.me/917389161808?text=Hello%20SHRI%20ANAND%20SWEETS%20%26%20FOODS%2C%20I%20am%20interested%20in%20wholesale%20products.%20Please%20share%20details."
+      target="_blank"
+      rel="noopener"
+      class="whatsapp-button"
+    >
+      Enquire on WhatsApp
+    </a>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="footer-brand">
+      <strong>SHRI ANAND SWEETS & FOODS</strong>
+      <span>Premium Sweets • Wholesale • Distribution</span>
+    </div>
+
+    <div class="footer-info">
+      <p>Karnal, Haryana</p>
+      <p>Rajasthan Branch — Near Pali, Rajasthan</p>
+    </div>
+
+    <div class="footer-contact">
+
+      <a href="tel:+919680422907">
+        Call: +91 96804 22907
+      </a>
+
+      <a
+        href="https://wa.me/917389161808"
+        target="_blank"
+        rel="noopener"
+      >
+        WhatsApp: +91 73891 61808
+      </a>
+
+    </div>
+
+    <p class="copyright">
+      © <span id="year"></span> SHRI ANAND SWEETS & FOODS. All rights reserved.
+    </p>
+
+  </footer>
+
+
+  <!-- PRODUCT MODAL -->
+  <div id="productModal" class="modal" aria-hidden="true">
+
+    <div class="modal-overlay" data-close-modal></div>
+
+    <div class="modal-content">
+
+      <button
+        class="modal-close"
+        type="button"
+        data-close-modal
+        aria-label="Close"
+      >
+        ×
+      </button>
+
+      <div id="modalBody"></div>
+
+    </div>
+
+  </div>
+
+
+  <!-- SCRIPTS -->
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
